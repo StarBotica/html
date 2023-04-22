@@ -13,5 +13,5 @@ html_string = '''
 </div>
 '''
 
-components.html(html_string)
+components.html(html_string,height=600)
 #st.markdown(html_string, unsafe_allow_html=True)
