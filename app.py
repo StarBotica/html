@@ -1,6 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+# demo para poder colocar código html en nuestra página streamlit
+
+# código html deseado
 html_string = '''
 <div id="av-orbit">
     <script>
@@ -13,5 +16,6 @@ html_string = '''
 </div>
 '''
 
+# components.html proporciona una forma de crear un iframe con el html personalizado
+# ideal para cuando queremos colocar un widget
 components.html(html_string,height=600)
-#st.markdown(html_string, unsafe_allow_html=True)
