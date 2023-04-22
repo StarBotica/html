@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 html_string = '''
 <div id="av-orbit">
@@ -12,4 +13,5 @@ html_string = '''
 </div>
 '''
 
-st.markdown(html_string, unsafe_allow_html=True)
+components.html(html_string)
+#st.markdown(html_string, unsafe_allow_html=True)
